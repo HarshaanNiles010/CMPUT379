@@ -14,7 +14,10 @@ int main(int argc, char *argv[]){
         if(UserInput == "Exit"){
             break;
         }
-        else if(UserInput == "Jobs"){}
+        else if(UserInput == "Jobs"){
+            // do nothing
+            return 0;
+        }
         else if(UserInput == "Kill"){}
         else if(UserInput == "resume"){}
         else if(UserInput == "sleep"){}
